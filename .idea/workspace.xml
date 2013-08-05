@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java" />
+    <list default="true" id="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" name="Default" comment="streaming">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/nettyx/Time.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeDecoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/nettyx/TimeDecoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nettyx.iws" />
@@ -11,10 +12,11 @@
     <file path="/DiscardServerHandler.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375648064424" ignored="false" />
     <file path="/pom.xml" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375637051185" ignored="false" />
     <file path="/DiscardServer.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375640125169" ignored="false" />
-    <file path="/Dummy.txt" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375687538600" ignored="false" />
+    <file path="/Dummy.txt" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375693421859" ignored="false" />
     <file path="/TimeServer.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375687009964" ignored="false" />
     <file path="/fragment.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375687997054" ignored="false" />
-    <file path="/TimeClientHandler.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375687899614" ignored="false" />
+    <file path="/TimeClientHandler.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375695777532" ignored="false" />
+    <file path="/TimeClient.java" changelist="b2fe10e2-4c77-4fb3-95d8-66b23e6e8beb" time="1375693197284" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscardServerHandler.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DiscardServerHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/DiscardServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+            <state line="30" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="0.6061706">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,14 +109,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TimeClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="67" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.4022663">
+            <state line="37" column="60" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#995#1239#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#995#1257#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Time.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/Time.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="20" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeDecoder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="20" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,7 +145,7 @@
       <file leaf-file-name="TimeClientHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="654" selection-end="897" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -180,6 +202,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/nettyx/TimeServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nettyx/TimeServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nettyx/Time.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nettyx/TimeDecoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java" />
       </list>
     </option>
@@ -253,10 +277,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,7 +530,15 @@
       <created>1375687544162</created>
       <updated>1375687544162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="time client and handler">
+      <created>1375688113743</created>
+      <updated>1375688113743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="streaming">
+      <created>1375693250435</created>
+      <updated>1375693250435</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -531,7 +559,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -581,7 +609,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="time server" />
+    <option name="LAST_COMMIT_MESSAGE" value="streaming" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -596,6 +624,8 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="time server" />
+    <MESSAGE value="time client and handler" />
+    <MESSAGE value="streaming" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -638,15 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/DiscardServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/DiscardServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="39" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0">
@@ -668,22 +689,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+        <state line="37" column="60" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#995#1257#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="20" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="640" selection-end="640" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/TimeClientHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="67" selection-start="548" selection-end="548" vertical-scroll-proportion="-0.4022663">
+        <state line="31" column="0" selection-start="654" selection-end="897" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#995#1239#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nettyx/DiscardServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="0.6061706">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

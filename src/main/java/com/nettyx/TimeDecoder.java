@@ -20,6 +20,7 @@ public class TimeDecoder extends ByteToMessageDecoder { // (1)
             return; // (3)
         }
 
-        out.add(in.readBytes(4)); // (4)
+        //out.add(in.readBytes(4)); // (4)
+        out.add(new Time(in.readInt()));
     }
 }
